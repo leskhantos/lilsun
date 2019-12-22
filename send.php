@@ -2,17 +2,14 @@
 
 if(isset($_POST['submit'])){
 	$to = "leskhan001@gmail.com";
-    $from = "no-reply@lilsun.kz";
+    $from = "admin@lilsun.kz";
 
 	$first_name = $_POST['name'];
 	$phone = $_POST['phone'];
 	$message = $_POST['message'];
     $subject = "Заявка с сайта Lilsun.kz";
 
-if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
-{
-show_error("<br /> Е-mail адрес не существует");
-}
+
 
 $mail_to_myemail = "Здравствуйте!
 Было отправлено сообщение с сайта!
@@ -20,7 +17,7 @@ $mail_to_myemail = "Здравствуйте!
 Номер телефона: $phone
 Адрес: $message
 Чтобы ответить на письмо, создайте новое сообщение, скопируйте электронный адрес и вставьте в поле Кому.";
-
+var_dump($mail_to_myemail);
 $headers = "From: $from \r\n";
 
     mail($to, $subject, $mail_to_myemail, $headers . 'Content-type: text/plain; charset=utf-8');
