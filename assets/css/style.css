@@ -675,7 +675,16 @@ Start of contact section
 	background: -ms-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
 	color: #fff;
 }
-/*----------------------------------------------------------------------- 
+.submit-btn a {
+	border: none;
+	background: -moz-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #ee0979), color-stop(100%, #ff6a00));
+	background: -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
+	background: -o-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
+	background: -ms-linear-gradient(left, #ee0979 0%, #ff6a00 100%);
+	color: #fff;
+}
+/*-----------------------------------------------------------------------
 End of contact section
 -------------------------------------------------------------------------*/
 
@@ -755,14 +764,14 @@ Start of home-2 banner
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-bottom: 290px;
+	padding-bottom: 150px;
 	overflow: visible;
 	padding-top: 340px;
 	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
 }
 .banner-area-head h1 {
-	font-size: 52px;
+	font-size: 25px;
 	color: #fff;
 	font-weight: 300;
 }
@@ -771,7 +780,7 @@ Start of home-2 banner
 }
 .banner-area-head  span {
 	color: #f1f1f1;
-	font-size: 26px;
+	font-size: 14px;
 }
 .banner-area-content {
 	position: relative;
