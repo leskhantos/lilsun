@@ -113,6 +113,9 @@ a.navbar-brand {
 .main-menu-container.tbg.navbar-fixed-top {
   padding-top: 25px;
   transition: .3s all ease-in-out;
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
+  transition: .3s all ease-in-out;
 }
 .main-menu-container.tbg.navbar-fixed-top.menu-bg-overlay {
   padding-top: 0;

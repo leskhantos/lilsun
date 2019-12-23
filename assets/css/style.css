@@ -767,19 +767,18 @@ Start of home-2 banner
 	padding-bottom: 150px;
 	overflow: visible;
 	padding-top: 340px;
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
-	background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
+	background-color: #f7f7f9;
 }
 .banner-area-head h1 {
-	font-size: 25px;
-	color: #fff;
-	font-weight: 300;
+	font-size: 30px;
+	color: #040404;
+	font-weight: normal;
 }
 .banner-text {
 	max-width: 650px;
 }
 .banner-area-head  span {
-	color: #f1f1f1;
+	color: #757575;
 	font-size: 14px;
 }
 .banner-area-content {
